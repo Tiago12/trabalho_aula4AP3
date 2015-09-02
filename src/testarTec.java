@@ -9,7 +9,12 @@
 public class testarTec {
     public static void main(String[] args){
          Teclado tc= new Teclado();
-         tc.lerInt();
+         String b= "Primeiro";
+         int a= 0;
 
+         tc.lerInt();
+         tc.lerDouble();
+         tc.lerFloat();
+         tc.charAt();
     }
 }
